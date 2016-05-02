@@ -1,0 +1,8 @@
+include LICENSE
+include Makefile
+include README.rst
+include _re2.cc
+include re2.py
+include setup.py
+include tests/test_match.py
+recursive-include re2-2016-05-01 *
