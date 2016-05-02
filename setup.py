@@ -31,6 +31,7 @@ class InstallCommand(_install):
                 _VENDORED_RE2,
                 'install',
                 'prefix=%s' % tmp_install_prefix,
+                'CPPFLAGS=-fPIC',
             ])
 
             include_dirs = ['%s/include' % tmp_install_prefix]
